@@ -1,18 +1,32 @@
 header{
-    width: 100%;
-    background-color: white;
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: 800;
+    line-height: 121px;
+    letter-spacing: 0em;
 }
 nav{
-    width: 100%;
+    width: 50%;
     background: white;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 35px;
 
 }
 nav a{
+    width: 50%;
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: 800;
+    line-height: 73px;
+    letter-spacing: 0em;
     text-decoration: none;
-    color: white;
-    
+    color: black;
+}
+.Left{
+    float: left;
+    width: 50%;
+}
+.right{
+    float: right;
+    width: 50%;
+    background-image: url("Fairchild_Republic_A-10_Thunderbolt_II_-_32156159151\ \(1\).jpg");
+    height: 100vh;
 }
